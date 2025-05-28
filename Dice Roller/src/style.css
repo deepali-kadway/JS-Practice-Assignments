@@ -1,0 +1,41 @@
+#container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#dicelabel{
+    font-size: 1em;
+}
+
+#diceNumb {
+    width: 150px;
+    height: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#rollButton{
+    border: none;
+    background-color: rgb(171, 206, 236);
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rollButton:hover {
+    background-color: rgb(104, 157, 197);
+}
+
+#diceResults{
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+#diceImages img{
+    justify-content: center;
+    width: 100px;
+    margin: 5px;
+}
