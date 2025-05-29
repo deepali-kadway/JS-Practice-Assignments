@@ -25,6 +25,7 @@ javascript-practice-assignments/ <br>
 ├── Counter Progam <br>
 ├── Dice Roller <br>
 ├── Digital Clock <br>
+├── Stopwatch <br>
 ├── Temperature Convertor <br>
 ├── README.md
 
