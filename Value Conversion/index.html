@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Value Conversion</h1>
+    <div id = "conversion-container">
+        <div id="input-conversion">
+            <label for="inputvalue">Enter a value for conversion: </label>
+            <input type="number" id="inputvalue">
+        </div>
+        <div id="radio-conversion">
+            <input type = "radio" id="dollarstocents" name="conversion">
+            <label for="dollarstocents">Dollar to Cents</label>
+            <input type = "radio" id="centstodollars" name="conversion">
+            <label for="centstodollars">Cents to Dollars</label>
+        </div>
+        <button type="button" id="convert-button" onclick="valueConvert()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
