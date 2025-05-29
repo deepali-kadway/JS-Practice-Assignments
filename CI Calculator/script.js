@@ -11,7 +11,7 @@ function calculate(){
     if(principal < 0 || isNaN(principal))
     {
         principal = 0
-        principalAmount.value = 0;
+        principalAmount.value = 0;          //The input field value is set to 0, so the user sees a corrected input.
     }
     if(interest < 0 || isNaN(interest))
     {   
