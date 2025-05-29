@@ -1,0 +1,67 @@
+body{
+    background-color:antiquewhite;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgba(3, 3, 3, 0.753);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+#watchDisplay{
+    font-size: 3em;
+    font-weight:400;
+    margin-bottom: 8px;
+    color: rgb(202, 116, 30);
+}
+
+button{
+    font-size: 1.3em;
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    padding: 5px 15px;
+}
+
+#start{
+    background-color: rgb(123, 214, 123);
+    margin-right: 5px;
+}
+
+#stop{
+    background-color: rgb(240, 108, 72);
+    margin-right: 5px;
+}
+
+#reset{
+    background-color: rgb(25, 137, 197);
+    margin-right: 5px;
+}
+
+#start:hover{
+    background-color: rgb(27, 129, 71);
+}
+
+#stop:hover{
+    background-color: rgb(163, 71, 45);
+}
+
+#reset:hover{
+    background-color: rgb(30, 103, 134);
+}
