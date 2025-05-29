@@ -21,9 +21,10 @@ This repository includes JavaScript assignment solutions for beginners who are n
 
 ## Currently Added Programs <br>
 javascript-practice-assignments/ <br>
+├── CI Calculator <br>
 ├── Counter Progam <br>
-├── Temperature Convertor <br>
 ├── Dice Roller <br>
+├── Temperature Convertor <br>
 ├── README.md
 
 🤝 Contributing <br>
