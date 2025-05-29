@@ -27,6 +27,7 @@ javascript-practice-assignments/ <br>
 ├── Digital Clock <br>
 ├── Stopwatch <br>
 ├── Temperature Convertor <br>
+├── Value Conversion <br>
 ├── README.md
 
 🤝 Contributing <br>
