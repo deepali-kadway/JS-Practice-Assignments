@@ -24,6 +24,7 @@ javascript-practice-assignments/ <br>
 ├── CI Calculator <br>
 ├── Counter Progam <br>
 ├── Dice Roller <br>
+├── Digital Clock <br>
 ├── Temperature Convertor <br>
 ├── README.md
 
