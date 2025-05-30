@@ -24,7 +24,12 @@ function calculate(){
         years.value = 0;
     }
 
-    const total = principal * Math.pow((1 + interest / 1), 1 * numofyears)
+    // Compound interest calculation (annual compounding)
+    const total = principal * Math.pow(1 + interest, numofyears)
+    
+   // Compounding more than once per year: A = P * (1 + r/n)^(n*t)
+   // const total = principal * Math.pow((1 + interest / 1), 1 * numofyears)
+    
     amount.textContent = total.toLocaleString(undefined,
                                                {style: "currency", 
                                                 currency: "CAD"
