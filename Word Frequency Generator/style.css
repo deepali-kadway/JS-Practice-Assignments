@@ -41,3 +41,7 @@ h1{
 #generateButton:hover{
     background-color: rgb(60, 90, 200);
 }
+
+#displaycount{
+    color: rgb(19, 103, 19);
+}
